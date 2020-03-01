@@ -15,17 +15,18 @@ CREATE TABLE api_queries (
 INSERT INTO api_queries(query_cursor) VALUES ('*');
 
 CREATE TABLE users (
-	steam_id VARCHAR(30) NOT NULL,
-    total_playtime MEDIUMINT NOT NULL,
-    playtime_last_two_weeks SMALLINT NOT NULL,
-    last_played INT NOT NULL,
-    PRIMARY KEY (steam_id)
+	user_number MEDIUMINT UNSIGNED AUTO_INCREMENT,
+	steam_id VARCHAR(20) NOT NULL,
+    total_minutes_played MEDIUMINT UNSIGNED NOT NULL,
+    timestamp_last_played INT UNSIGNED NOT NULL,
+    PRIMARY KEY (user_number)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE reviews (
-	steam_id VARCHAR(30) NOT NULL,
+	user_number MEDIUMINT UNSIGNED AUTO_INCREMENT,
+	steam_id VARCHAR(20) NOT NULL,
     user_review TEXT NOT NULL,
-    timestamp_updated INT NOT NULL,
+    timestamp_updated INT UNSIGNED NOT NULL,
     recommends_game TINYINT NOT NULL,
-    PRIMARY KEY (steam_id)
+    PRIMARY KEY (user_number)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
