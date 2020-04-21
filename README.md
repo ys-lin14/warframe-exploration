@@ -1,0 +1,11 @@
+# Warframe-exploration
+A project investigating player inactivity within *Warframe* using polynomial regression and Steam reviews using wordcloud, 
+word frequencies, tfidf scores, and VADER polynomial regression. 
+
+References\
+*Warframe* [Game]. (2013). London (Ontario): Warframe.
+
+NLTK Vader:
+Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for 
+Sentiment Analysis of Social Media Text. Eighth International Conference on 
+Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
