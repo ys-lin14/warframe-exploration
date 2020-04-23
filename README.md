@@ -3,7 +3,7 @@ A project investigating player inactivity within *Warframe* using polynomial reg
 word frequencies, tfidf scores, and VADER polynomial regression. 
 
 References\
-*Warframe* [Game]. (2013). London (Ontario): Warframe.
+*Warframe* [Game]. (2013). London (Ontario): Digital Extremes.
 
 NLTK Vader:
 Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for 
