@@ -5,14 +5,7 @@ I wanted to build upon my previous exploration and see what else I could do with
 I primarily wanted to gain experience with databases and sentiment analysis but also ended up
 extracting additional information from user reviews and experimenting with polynomial regression.
 
-#### Methods:
-- wordcloud
-- sentiment analysis 
-- polynomial regression
-- residual analysis
-- cross validation (leave-one-out)
-
-#### Results:
+#### Summary:
 - Stored and accessed data in a local MySQL database using Python
 - Visualized user reviews using wordcloud
 - Extracted and visualized 'n/10' ratings from user reviews using regex and Seaborn
