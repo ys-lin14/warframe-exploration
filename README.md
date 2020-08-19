@@ -2,7 +2,7 @@
 
 #### Motivation
 I wanted to build upon my previous exploration and see what else I could do with Steam data. 
-I primarily wanted to gain experience with databases and sentiment analysis but also ended up
+I mainly hoped to gain experience with databases and sentiment analysis but also ended up
 extracting additional information from user reviews and experimenting with polynomial regression.
 
 #### Summary:
