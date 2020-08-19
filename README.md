@@ -15,10 +15,10 @@ extracting additional information from user reviews and experimenting with polyn
 #### Results:
 - Stored and accessed data in a local MySQL database using Python
 - Visualized user reviews using wordcloud
-- Extracted and visualized 'n/10' ratings from user reviews using regex and Seaborn.
-- Examined user review sentiment using VADER.
-- Performed polynomial regression on the number of inactive players using NumPy.
-- Assessed polynomials using residuals and sklearn cross validation.
+- Extracted and visualized 'n/10' ratings from user reviews using regex and Seaborn
+- Examined user review sentiment using VADER
+- Performed polynomial regression on the number of inactive players using NumPy
+- Assessed polynomials using residuals and sklearn cross validation
 
 #### References
 *Warframe* [Game]. (2013). London (Ontario): Digital Extremes.
