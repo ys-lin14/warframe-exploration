@@ -16,7 +16,8 @@ extracting additional information from user reviews and experimenting with polyn
 - Stored and accessed data in a local MySQL database using Python
 - Visualized user reviews using wordcloud
 - Extracted and visualized 'n/10' ratings from user reviews using regex and Seaborn
-- Examined user review sentiment using VADER
+- Examined sentiment in user reviews using VADER
+- Ranked game characters, enemies, non-player characters and locations using word counds and inverse document frequencies
 - Performed polynomial regression on the number of inactive players using NumPy
 - Assessed polynomials using residuals and sklearn cross validation
 
